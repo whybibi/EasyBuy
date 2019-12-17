@@ -1,0 +1,128 @@
+body{
+    background-color: #f3f3f3;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.home_main{
+    width: 100%;
+    height: 100%;
+    background-color: #f3f3f3;
+}
+.home_center{
+    width: 95%;
+    height: auto;
+    margin: 0 auto;
+    overflow: hidden;
+    padding-top: 20px;
+}
+.home_manage{
+    width: 17%;
+    height: auto;
+    float: left;
+    overflow: hidden;
+}
+.home_manage img{
+    vertical-align: middle;
+}
+.manage_tit{
+    width: 100%;
+    height: 40px;
+    background-color: #9b9b9b;
+}
+.managa_titP{
+    width: 100%;
+    font-size: 15px;
+    color: white;
+    text-align: left;
+    padding-left: 10%;
+    line-height: 40px;
+}
+
+.order_main{
+    width: 100%;
+    height: auto;
+    margin-top: 10px;
+    border-radius: 5px;
+    background-color: white;
+}
+.vip_main{
+    width: 100%;
+    height: auto;
+    margin-top: 10px;
+    border-radius: 5px;
+    background-color: white;
+}
+.product_main{
+    width: 100%;
+    height: auto;
+    margin-top: 10px;
+    border-radius: 5px;
+    background-color: white;
+}
+.info_main{
+    width: 100%;
+    height: auto;
+    margin-top: 10px;
+    border-radius: 5px;
+    background-color: white;
+}
+.home_manage dl{
+    width: 100%;
+    height: auto;
+}
+.home_manage dl dt{
+    width: 100%;
+    height: 35px;
+    cursor: pointer;
+    border-bottom: 1px solid #cecece;
+}
+.home_manage dl dt p{
+    width: 100%;
+    font-size: 15px;
+    color: #7f7f7f;
+    text-align: left;
+    padding-left: 10%;
+    line-height: 35px;
+}
+.home_manage dl dd{
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    font-size: 14px;
+    color: #7f7f7f;
+    display: none;
+}
+.home_manage dl dd:hover{
+    cursor: pointer;
+    background-color: #efefef;
+}
+
+.home_show{
+    width: 82%;
+    height: auto;
+    /*height: 670px;*/
+    float: right;
+    overflow: hidden;
+    background-color: white;
+}
+.home_show_top{
+    width: 100%;
+    height: 45px;
+    /*border-bottom:1px solid #cecece;*/
+}
+.home_show_tit{
+    color: #666666;
+    font-size: 17px;
+    font-weight: bold;
+    line-height: 45px;
+    text-indent: 1em;
+}
+
+.home_load{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    /*background-color: #a8d29b;*/
+}
